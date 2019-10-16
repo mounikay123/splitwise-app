@@ -1,0 +1,286 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.letter{
+  letter-spacing: 3px;
+}
+.img-fluid{
+  width: 200px;
+  padding: 17px 10px;
+
+  margin-left: 121px;
+}
+.con-pad {
+  padding: 0px !important;
+}
+.nav-bag{
+  background-color: #5bc5a7;
+}
+.pfont{
+  font-size:12px;
+  margin-top:8px;
+}
+.image-fluid{
+  height: 61px;
+  width: 64px;
+  margin-top: 13px;
+}
+.pad-lef{
+  padding-left: 4% !important;
+}
+.img-fluid2{
+  width: 36%;
+  height: 300px;
+}
+.img-fluid3{
+  width: 13%;
+  height: 308px;
+}
+.img-fluid2:hover{
+  box-shadow: 1px solid lightgrey !important;
+  transition: .5s all;
+}
+.signUpSplitHe{
+  
+  margin: 3%;
+  font-size: 16px;
+  color: #999;
+  font-weight: bold;
+  line-height: 20px;
+}
+.pad-lef2{
+  padding: 9%
+}
+.myNameInp{
+  height: 50px;
+}
+.signMe{
+  background-color:orangered !important;
+  color:white !important;
+  width: auto !important;
+  font-size: 24px !important;
+}
+.ro-top{
+  margin-top: 5%;
+}
+.google{
+  font-size: 6px;
+}
+.google-contacts{
+  position: absolute !important; 
+  top: 24px !important;
+   right: 8px !important;
+    text-align: right !;
+     font-size: 14px !important;
+      color: #999 !important;
+       line-height: 14px !important;
+}
+.nav-he{
+  background-color: black;
+}
+.image-round{
+  width: 14%;
+}
+.dropDown-ele{
+  width: 100%;
+}
+.create-btn{
+  border: 1px solid lightgrey !important;
+}
+.dashboard-spli{
+  width: 50px;
+  height: 50px;
+  vertical-align: bottom;
+  margin-right: 2px;
+}
+.split-person{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 335px;
+  width: 153px;
+}
+.apart-btn{
+  display: block !important;
+  width: 270px !important;
+  font-size: 24px !important;
+  margin: 12px auto 11px !important;
+  text-align: left !important;
+}
+.grp-inp{
+  height: 55px !important;
+}
+.shall-grp{
+  font-size: 24px;
+}
+ .place::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+font-size: 24px;
+}
+.grp-save{
+  float: left !important;
+  margin-top: 3% !important;
+}
+.tips-grp{
+  font-size: 12px;
+  line-height: 16px;
+  color: #999;
+  margin: -2px 0 12px;
+}
+.hr-mar{
+  margin-top: 12%;
+}
+.image-round2{
+  width: 6%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.dashBoard1Split{
+  width: 7%;
+  height: 17px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+/* naveen */
+.img-wid{
+  width: 20px;
+  margin-left: 13px;
+  margin-top: 4px;
+}
+.perform-surveillence{
+  border: 1px solid red;
+  color: #42a5f5;
+  padding: 5px;
+}
+.tab-hov:hover{
+  background-color: #42a5f5;
+  border-radius: 50px;
+}
+.pad-non{
+  padding: 0 !important;
+}
+.aFont{
+  font-weight: 500;
+  font-size: 13px;
+}
+.card-pad{
+  padding: 8px 1px 0px 10px !important;
+  border-bottom: 1px solid #42a5f5 !important;
+}
+.car-bord{
+  border: 1px solid #42a5f5 !important;
+}
+
+
+.nav-color{
+  color: rgba(255,255,255,.9) !important;
+}
+.img-sty{
+  width: 37%;
+  margin-right:76%;
+}
+.pad-nav{
+  padding-top:1% !important;
+  padding-bottom: 2% !important;
+}
+.sideMenu{
+  position: relative;
+  padding-top: 33px;
+  margin-left: -201px;
+  padding-right: 20px;
+  width: 180px;
+  z-index: 3;
+  float: left;
+}
+sideMenu2{
+  text-align: left ;
+  width: 172px ;
+  margin-left: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
